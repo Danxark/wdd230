@@ -12,14 +12,14 @@ header footer nav { background-color: #bbb;}
 header {
     border:1px solid #415541;
     background-color: #e9f5e9;
-    border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
 }
 nav {
-    background-color: darkgreen;
-    margin: 0 auto;
-    max-width: 800px;
+    border:1px solid #415541;
+    background-color: #e9f5e9;
+    overflow: hidden;
+    margin: 1rem 0;
 
 }
 nav ul {
@@ -56,6 +56,22 @@ nav a {
 .parent p {
     padding: 10px;
 
+}
+.lastmodified{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B3CDD1;
+    gap: 5px;
+    padding: 5px;
+    font-size: 25px;
 }
 @media only screen and (min-width: 38rem) {
     .parent {
