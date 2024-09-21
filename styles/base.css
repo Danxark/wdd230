@@ -77,6 +77,10 @@ nav a {
     font-size: 5px;
     
 }
+.links {
+    list-style-type: none;
+    margin: 20px;
+}
 footer{
     display: flex;
     flex-direction: column;
