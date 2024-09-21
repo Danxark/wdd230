@@ -5,21 +5,31 @@
 }
 img {
     width: 15%;
-    border: 5px solid black;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 header footer nav { background-color: #bbb;}
-header {
-    border:1px solid #415541;
-    background-color: #e9f5e9;
-    overflow: hidden;
-    margin: 1rem 0;
+header{
+    background-color: #B3CDD1;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1 {
+    text-align: center;
 }
 nav {
     border:1px solid #415541;
     background-color: #e9f5e9;
     overflow: hidden;
     margin: 1rem 0;
+    justify-content: center;
+    text-align: center;
 
 }
 nav ul {
@@ -32,6 +42,7 @@ nav a {
     text-align: center;
     padding: .5rem;
     text-decoration: none;
+    align-items: center;
 }
 .active {
     color: white;
@@ -57,10 +68,13 @@ nav a {
     padding: 10px;
 
 }
+.information {
+    text-align: center;
+}
 .lastmodified{
     color: black;
     text-align: center;
-    font-size: 20px;
+    font-size: 5px;
     
 }
 footer{
@@ -71,7 +85,7 @@ footer{
     background-color: #B3CDD1;
     gap: 5px;
     padding: 5px;
-    font-size: 25px;
+    font-size: 20px;
 }
 @media only screen and (min-width: 38rem) {
     .parent {
@@ -86,6 +100,7 @@ footer{
 @media (min-width: 38rem) {
     nav ul {
         display: flex;
+        justify-content: center;
         
     }
     nav ul li {
