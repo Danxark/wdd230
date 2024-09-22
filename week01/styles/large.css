@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 20%;
+    border-radius: 5px;
+    line-height: 3rem;
+}
+header{
+    background-color: #EBE3D6;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 30px;
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    
+}
+main {
+    align-items: center;
+    text-align: center;
+    
+}
+h1 {
+    color: #0D6D4A ;
+}
+h2 {
+    color: #901313;
+    line-height: 3rem;
+}
+body {
+    color: #EBE3D6;
+}
+p {
+    color: black;
+    line-height: 2rem;
+
+}
+
+.imageview {
+    justify-content: center;
+}
