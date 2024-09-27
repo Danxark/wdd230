@@ -16,6 +16,7 @@
     <meta property="og:type" content="Offial Website for Danny Alonzo"/>
     <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/PortoviejoCathedral.jpg/300px-PortoviejoCathedral.jpg"/>
     <meta property="og:url" content="https://www.facebook.com/dan.c.alonzo"/>
+    <script src="scripts/hamburguer.js" defer></script>
     
 
 </head>
@@ -26,15 +27,16 @@
         <span>Danny Alonzo</span>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html" class="active"></a>Home</li>
-            <li><a href="index.html"></a>Chamber</li>
-            <li><a href="week01/chamber-site-plan.html"></a>Site Plan</li>
-            <li><a href="index.html"></a>Form</li>
+        <button id="myButton">&#9776;</button>
+        <ul class="menuLinks">
+            <li><a href="#" class="active"></a>Home</li>
+            <li><a href="#"></a>Chamber</li>
+            <li class="current-menu-item"><a href="week01/chamber-site-plan.html"></a>Site Plan</li>
+            <li><a href="#"></a>Form</li>
         </ul>
     </nav>
 
-    <main>
+    <main> 
    
 
         <h1>WDD 230: Web Frontend Development</h1>
@@ -76,6 +78,8 @@
         </span>.:|:. Danny Alonzo .:|:. Ecuador</p>
         <p class="lastModified">Last Modified:</p>
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburguer.js"></script>
+    
     </footer>
 </body>
 </html>
