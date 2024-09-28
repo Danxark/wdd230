@@ -1,8 +1,16 @@
-const hamburguerElement = document.querySelector('#myButton');
-const navElement = document.querySelector('.menuLinks');
+const toggleButton = document.getElementById('toggleButton');
+const navElement = document.getElementById('navElement');
+const iconElement = toggleButton.querySelector('i');
 
-hamburguerElement.addEventListener('click', () =>{
-    navElement.classList.toggle('open');
-    hamburguerElement.classList.toggle('open');
+toggleButton.addEventListener('click', () => {
 
+  navElement.classList.toggle('hidden');
+
+  if (navElement.classList.contains('hidden')) {
+    iconElement.classList.remove('fa-times');
+    iconElement.classList.add('fa-bars');
+  } else {
+    iconElement.classList.remove('fa-bars');
+    iconElement.classList.add('fa-times');
+  }
 });

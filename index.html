@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,65 +24,67 @@
 
 </head>
 <body>
+    <div class="note-bar">
+        <div id="mode">
+            ☑️
+        </div>
+    </div>
     <header>
-        <img src="images/dannyalonzo.jpg" 
-        alt="Danny's Profile Picture">
-        <span>Danny Alonzo</span>
-    </header>
-    <nav>
-        <button id="myButton">&#9776;</button>
-        <ul class="menuLinks">
-            <li><a href="#" class="active"></a>Home</li>
-            <li><a href="#"></a>Chamber</li>
-            <li class="current-menu-item"><a href="week01/chamber-site-plan.html"></a>Site Plan</li>
-            <li><a href="#"></a>Form</li>
-        </ul>
-    </nav>
+        <img src="images/dannyalonzo.jpg" alt="Danny's Profile Picture">
+        <h1>Danny Alonzo</h1>
+        
+      </header>
+      <div class="container">
+  <button id="toggleButton" class="hamburger">
+    <i class="fas fa-bars"></i>
+  </button>
+</div>
+</button>
 
-    <main> 
-   
-
-        <h1>WDD 230: Web Frontend Development</h1>
-        <div class="parent">
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul class="links">
-                <li>
-                     Week 1:<a href="">Holy Grail</a> 
-                     <a href="">Applied JS</a>
-                     <a href="">Media Query</a>
-                     <a href="">Project Site Plan</a>
-                </li>
-                <li>
-                     Week 2:<a href="">WDD responsive Menu</a>
-                     <a href="">Designs</a>
-                     <a href="">Book of Mormon Chapters</a>
-                     <a href="">Week COC Home page</a>
-                    </li>
-                <li> week 3:<a href=""></a></li>
-                <li> Week 4:<a href=""></a></li>
-                <li> week 5:<a href=""></a></li>
-                <li> Week 6:<a href=""></a></li>
-                <li> Week 7:<a href=""></a></li>
+      <nav id="navElement" class="hidden">
+        
+          <a name="Home" class="selected" href="#">Home</a>
+          <a name="Chamber" href="chamber/index.html">Chamber</a>
+          <a name="Site Plan" href="week01/chamber-site-plan.html">Site Plan</a>
+          <a name="Form" href="#">Form</a>
+        
+      </nav>
+    
+    <main>
+        <h2 class="centerText">WDD 230: Web Frontend Development</h2>
+        <a><hr></a>
+        <section class="card" id="card">
+            
+            <h3 id="headerThree" class="centerText">Learning Activities</h3>
+            <ul>
+                <li><a>Week 01: <a href="#">Layout</a> | <a href="#">Media Query</a> | <a href="#">JS Pen</a></a></li>
+                <li><a>Week 02: <a href="week02/design.html">Design</a> | <a href="https://codepen.io/Cameron-Pedro/pen/bGQVGRe">Codepen</a> | <a href="week02/bom.html">JS DOM</a></li>
+                <li><a>Week 03:</a></li>
+                <li><a>Week 04:</a></li>
+                <li><a>Week 05:</a></li>
+                <li><a>Week 06:</a></li>
             </ul>
         </section>
-        <section class="card">
-            <h2>Information</h2>
-            <div class="information">
-            <p>Portoviejo, Ecuador</p>
-            <p>75 F - Sunshine</p>
-            <p>Page visits: 20</p>
-            </div>
+
+        <section class="card" id="information">
+            <h3 id="header">Information</h3>
+            <ul class="information">
+                <li><a>Portoviejo, Ecuador</a></li>
+                <li><a>Weather: 75 F - Sunshine</a></li>
+                <li><a>Page visits: 20</a></li>
+            </ul>
         </section>
-        </div>
     </main>
-    <footer>
-        <p class="copyright">&copy; <span id="currentyear">
-        </span>.:|:. Danny Alonzo .:|:. Ecuador</p>
-        <p class="lastModified">Last Modified:</p>
-    <script src="scripts/getDates.js" defer></script>
-    <script src="scripts/hamburguer.js"></script>
     
+    <footer>
+        <div class="centered">
+            <p class="copyright">&copy; <span id="currentyear">
+            <p class="modifier">..:|   Danny Alonzo   |:. Ecuador</p>
+          </div>
+          <p class="lastModified">Last Modified:</p>
     </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/mode.js"></script>
 </body>
 </html>
