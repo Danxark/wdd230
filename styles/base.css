@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #E9ECEF;
   }
   
   .container {
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #1d3557;
+    background-color: #212529;
     color: #fff;
   }
   
@@ -25,6 +25,7 @@ body {
     border-radius: 10%;
     max-width: 200px;
     margin-right: 20px;
+    box-shadow: black;
   }
   
   header h1 {
@@ -52,7 +53,7 @@ body {
     display: flex;
     justify-content: flex-start; 
     align-items: center;
-    background-color: #1a1c1d;
+    background-color: #212529;
     padding: 0px;
   }
   
@@ -65,11 +66,11 @@ body {
   }
   
   nav .selected {
-    background-color: #b38c5a;
+    background-color: #4e609b;
   }
   
   nav a:hover {
-    background-color: #a8dadc;
+    background-color: #6C757D;
   }
   
   nav .selected a {
@@ -97,7 +98,7 @@ body {
   }
   
   .card h3 {
-    color: #1d3557;
+    color: #343A40;
     margin-top: 0;
     margin-bottom: 20px;
   }
@@ -134,7 +135,7 @@ body {
   }
 
   footer {
-    background-color: #1d3557;
+    background-color: #212529;
     padding: 10px;
     color: #fff;
     text-align: center;
