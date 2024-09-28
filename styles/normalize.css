@@ -152,12 +152,9 @@ html {
     white-space: normal; 
   }
   
-  
   progress {
     vertical-align: baseline;
   }
-  
-
   
   textarea {
     overflow: auto;
