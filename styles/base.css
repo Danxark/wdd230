@@ -97,12 +97,6 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .card h3 {
-    color: #343A40;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
-  
   .card ul {
     list-style: none;
     padding: 0;
@@ -127,9 +121,7 @@ body {
     text-align: center;
   }
 
-  h3 {
-    text-align: center;
-  }
+
   .information {
     text-align: center;
   }
