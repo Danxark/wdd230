@@ -10,8 +10,8 @@ modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {
 		main.style.background = "#1a1c1d";
 		main.style.color = "#f2f2f2";
-        section.style.background = "#1d3557";
-        info.style.backgroundColor = "#1d3557";
+        section.style.background = "#212529";
+        info.style.backgroundColor = "#212529";
         header.style.color = "#f2f2f2";
         headerThree.style.color = "#f2f2f2";
 		modeButton.textContent = "❎";
