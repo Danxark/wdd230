@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #EBE3D6;
 }
   
 a {
@@ -13,8 +13,8 @@ a {
   
 
 header {
-    background-color: #757575;
-    padding: 2px;
+    background-color: #0D6D4A;
+    padding: 10px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -25,6 +25,7 @@ header img {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    border-radius: 40%;
 }
   
 
@@ -37,13 +38,13 @@ header img {
 .hamburger {
     width: 25px;
     height: 3px;
-    background-color: #333;
+    background-color: #901313;
     margin: 5px 0;
 }
   
 nav ul.menu {
     display: none;
-    background-color: bisque;
+    background-color: rgb(241, 162, 162);
     margin-top: 0;
 }
   
@@ -89,11 +90,13 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    background-color: #333;
+    background-color: #901313;
     color: #fff;
     padding: 10px 20px;
     font-size: 18px;
     text-decoration: none;
+    border-radius: 5%;
+    box-shadow: #333 20%;
 }
   
 .call-to-action {
@@ -133,9 +136,9 @@ main {
   
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #901313;
+    color: #EBE3D6;
+    padding: 15px;
 }
   
 .contact-info {
@@ -148,5 +151,6 @@ footer {
 }
 main h3 {
     text-align: center;
+    color: #0D6D4A;
 }
   
