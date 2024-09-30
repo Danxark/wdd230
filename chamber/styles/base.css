@@ -135,7 +135,9 @@ main {
     height: auto;
     border-radius: 50%;
 }
-  
+h1{
+    text-align: center;
+}
 
 footer {
     background-color: #901313;
