@@ -6,13 +6,14 @@ const header = document.querySelector("h3");
 const headerThree = document.getElementById("header");
 
 
+
 modeButton.addEventListener("click", () => {
 	if (modeButton.textContent.includes("☑️")) {
-		main.style.background = "#1a1c1d";
+		main.style.background = "#5c656e";
 		main.style.color = "#f2f2f2";
-        section.style.background = "#212529";
-        info.style.backgroundColor = "#212529";
-        header.style.color = "#f2f2f2";
+        section.style.background = "#050505";
+        info.style.backgroundColor = "#050505";
+        header.style.color = "#f2f2f2";;
         headerThree.style.color = "#f2f2f2";
 		modeButton.textContent = "❎";
 	} else {
