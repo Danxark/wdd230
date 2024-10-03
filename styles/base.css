@@ -91,7 +91,7 @@ body {
     position: relative;
     grid-column-start: auto;
     grid-column-end: span 2;
-    height: auto /* Adjust the height as needed */
+    height: auto 
   }
   .hero-label {
     position: absolute;
@@ -104,6 +104,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    border-radius: 10%;
   }
   
   .hero-label p {
