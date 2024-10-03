@@ -31,7 +31,7 @@
         </div>
     </div>
     <header>
-        <img src="images/dannyalonzo.jpg" alt="Danny's Profile Picture">
+        <img src="images/dannyalonzo.webp" alt="Danny's Profile Picture">
         <h1>Danny Alonzo</h1>
         
       </header>
@@ -51,6 +51,17 @@
       </nav>
     
     <main>
+        <div class="temple-container">
+            <picture class="temple">
+              <source srcset="images/temple.webp" media="(max-width: 400px)">
+              <source srcset="images/temple.webp" media="(max-width: 960px)">
+              <img src="images/temple.webp" alt="Guayaquil Temple - Guayaquil, EC">
+            </picture>
+            <div class="hero-label">
+              <p>Guayaquil Temple</p>
+            </div>
+          </div>
+
         <h2 class="centerText">WDD 230: Web Frontend Development</h2>
         <a><hr></a>
         <section class="card" id="card">
@@ -71,9 +82,13 @@
             <ul class="information">
                 <li><a>Portoviejo, Ecuador</a></li>
                 <li><a>Weather: 75 F - Sunshine</a></li>
-                <li><a>Page visits: 20</a></li>
+                <li><a class="label">Page Visits: </a><span class="visits"></span></a></li>
             </ul>
         </section>
+        <div class="iframe-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510611.2443452398!2d-80.25701529999996!3d-1.0484479499999948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902bf2b3349167a5%3A0xb5eb80e513eb7eee!2sPortoviejo!5e0!3m2!1ses-419!2sec!4v1727958184101!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     </main>
     
     <footer>
@@ -86,5 +101,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/mode.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>
