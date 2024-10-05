@@ -151,6 +151,10 @@ main {
     transition: transform 0.3s ease-in-out;
     border-radius: 5%;
 }
+figcaption{
+    text-align: center;
+
+}
 h1{
     text-align: center;
 }
@@ -175,4 +179,8 @@ main h3 {
 }
 h2 {
     text-align: center;
+}
+figure {
+    align-items: center;
+
 }
