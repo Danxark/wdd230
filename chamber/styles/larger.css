@@ -19,4 +19,44 @@
         padding: 10px;
         text-decoration: none;
     }
+    .sidebar {
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+      
+    .main-content {
+        background-color: #ffffff;
+        padding: 20px;
+    }
+      
+    .image:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+      .container {
+        grid-template-columns: 200px 1fr;
+        grid-template-areas: 
+          "sidebar main";
+        }
+      .current-events {
+          grid-column-start: 1;
+          grid-column-end: 3;
+          height: 175px;
+        }
+      .weather-card {
+          grid-column-start: 3;
+          grid-column-end: 5;
+          height: 175px;
+        }
+      .hero .btn {
+          font-size: 25px;
+        }
+    .hero-text {
+        text-align: center;
+        color: #37505C;
+        padding: 10px 20px;
+        font-size: 22px;
+        text-decoration: none;
+        margin: 50px 150px;
+    }
 }
