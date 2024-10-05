@@ -142,6 +142,7 @@ main {
     grid-template-areas: 
       "sidebar"
       "main";
+    text-align: left;
 }
 .image {
     max-width: 100%;
@@ -172,4 +173,6 @@ main h3 {
     text-align: center;
     color: #0D6D4A;
 }
-  
+h2 {
+    text-align: center;
+}
