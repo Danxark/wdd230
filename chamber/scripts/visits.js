@@ -5,7 +5,7 @@ if (typeof(Storage) !== "undefined") {
     var currentDate = new Date().getTime();
 
     if (!lastVisit) {
-      document.getElementById("message").textContent = "Welcome to Portoviejo chamber of commerce! Here you can find useful information about our products and community.";
+      document.getElementById("message").textContent = "Welcome to Portoviejo chamber of commerce! Here you can find useful information about our businesses and wworkshops.";
     } else {
       var timeDiff = currentDate - parseInt(lastVisit);
       var daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
