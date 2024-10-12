@@ -59,4 +59,17 @@
         text-decoration: none;
         margin: 50px 150px;
     }
+    .join-container {
+      display:flex;
+      justify-content:center;
+    }
+    .form-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+     .benefits {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
 }

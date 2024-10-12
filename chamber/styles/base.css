@@ -185,3 +185,61 @@ figure {
     align-items: center;
 
 }
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+.join-container {
+  display: grid;
+  justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.form-container {
+  grid-row: 1;
+}
+.benefits {
+  width: 50%;
+  margin: 0 auto;
+  grid-row: 2;
+}
+
+.benefits h2 {
+  margin-top: 0;
+}
+
+.benefits h3 {
+  margin-top: 20px;
+}
+
+.benefits ul {
+  margin-bottom: 20px;
+}

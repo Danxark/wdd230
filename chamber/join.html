@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Alonzo">
+    <meta name="description" content="Portoviejo Chamber of Commerce">
+    <title>Portoviejo Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Portoviejo Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.eldiario.ec/wp-content/uploads/2021/10/20200925084711_la-ca-mara-de-comercio-presenta-ped.jpg">
+    <meta property="og:url" content="https://danxark.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+
+        <div class="hamburger-menu">
+            <div class="hamburger"></div>
+        </div>
+        <img src="images/favicon.ico" alt="Chamber Logo">
+    </header>
+    <h1>Portoviejo Chamber of Commerce</h1>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="join-container">
+        <div class="form-container">
+        <h1>Membership Application Form</h1>
+    <form method="get" action="thankyou.html">
+        <label for="first-name">Applicant's First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="last-name">Applicant's Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="position">Applicant's Title/Position:</label>
+        <input type="text" id="position" name="position" pattern="[a-zA-Z\s-]{7,}" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required pattern=".+@byui\.edu"  placeholder="@byui.edu" ><br><br>
+
+        <label for="phone">Mobile Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="organization">Business/Organization Name:</label>
+        <input type="text" id="organization" name="organization" required><br><br>
+
+        <label for="membership-level">Membership Level:</label>
+        <select id="membership-level" name="membership-level">
+            <option value="NP Membership">NP Membership (Free)</option>
+            <option value="Bronze Membership">Bronze Membership</option>
+            <option value="Silver Membership">Silver Membership</option>
+            <option value="Gold Membership">Gold Membership</option>
+        </select><br><br>
+
+        <label for="description">Business/Organization Description:</label><br>
+        <textarea id="description" name="description" rows="5" cols="30"></textarea><br><br>
+
+        <input type="hidden" id="timestamp" name="timestamp" value="">
+
+        <input type="submit" value="Submit">
+    </form>
+        </div>
+    <div class="benefits">
+        <h2>Membership Benefits:</h2>
+        <h3>NP Membership</h3>
+        <ul>
+            <li>No fee</li>
+            <li>Basic Analitics</li>
+            <li>First Report free</li>
+        </ul>
+        <h3>Bronze Membership</h3>
+        <ul>
+            <li>5 sumary reports per week</li>
+            <li>personal asistance 3 days per week</li>
+        </ul>
+        <h3>Silver Membership</h3>
+        <ul>
+            <li>10 Personal Reports per week
+            </li>
+            <li>Personal asistance 24/7</li>
+            <li>2 Financial Report per month</li>
+            <li>Financial Analitics</li>
+
+        </ul>
+        <h3>Gold Membership</h3>
+        <ul>
+            <li>Unlimited Reports</li>
+            <li>Personal Analitics</li>
+            <li>Asitance 24/7 24hrs</li>
+        </ul>
+    </div>
+    </div>
+    </main>
+    
+    
+    
+    <footer>
+    <div class="contact-info">
+        <p>Contact us: Manabi, Portoviejo San Cayetano and Litayos ST</p>
+        <p>Email: portoviejochamber@gmail.com</p>
+        <p>Phone: +593 978916207</p>
+    </div>
+    
+    <div class="development-info">
+        <p>Danny Alonzo</p>
+        <p>WDD 230</p>
+        <p id="lastModified">Last modified:</p>
+    </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/visits.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>
