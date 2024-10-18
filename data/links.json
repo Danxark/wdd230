@@ -1,0 +1,101 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "#",
+            "title": "Layout"
+          },
+          {
+            "url": "#",
+            "title": "Media Query"
+          },
+          {
+            "url": "#",
+            "title": "JS Pen"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "",
+            "title": "Design"
+          },
+          {
+            "url": "",
+            "title": "Codepen"
+          },
+          {
+            "url": "",
+            "title": "JS DOM"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "",
+            "title": "WebP",
+            "target": "_blank"
+          },
+          {
+            "url": "",
+            "title": "LazyLoad",
+            "target": "_blank"
+          },
+          {
+            "url": "",
+            "title": "Responsive",
+            "target": "_blank"
+          },
+          {
+            "url": "",
+            "title": "BOM",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "",
+            "title": "Codepen"
+          },
+          {
+            "url": "",
+            "title": "Combinators",
+            "target": "_blank"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "",
+            "title": "Codepen"
+          },
+          {
+            "url": "",
+            "title": "Json",
+            "target": "_blank"
+          },
+          {
+            "url": "",
+            "title": "Weather",
+            "target": "_blank"
+          },
+          {
+            "url": "",
+            "title": "Prophets",
+            "target": "_blank"
+          }
+        ]
+      }
+    ]
+  }
