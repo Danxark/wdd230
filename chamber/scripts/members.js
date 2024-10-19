@@ -1,4 +1,4 @@
-const url = 'https://Danxark.github.io//wdd230/chamber/data/members.json'; 
+const url = 'https://danxark.github.io//wdd230/chamber/data/members.json'; 
 const cards = document.querySelector('#company-cards');
 const viewTypeSelect = document.querySelector('#view-type');
 
