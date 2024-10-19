@@ -245,7 +245,7 @@ input[type="submit"]:hover {
 }
 #company-cards section {
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 16px;
     margin-bottom: 16px;
     background-color: #f2f7f1;
