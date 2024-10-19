@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Danny Alonzo">
+    <meta name="description" content="Portoviejo Chamber of Commerce">
+    <title>Portoviejo Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Portoviejo Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.eldiario.ec/wp-content/uploads/2021/10/20200925084711_la-ca-mara-de-comercio-presenta-ped.jpg">
+    <meta property="og:url" content="https://danxark.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+
+        <div class="hamburger-menu">
+            <div class="hamburger"></div>
+        </div>
+        <img src="images/favicon.ico" alt="Chamber Logo">
+    </header>
+    <h1>Portoviejo Chamber of Commerce</h1>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <div class="view-toggle">
+          <label for="view-type">View:</label>
+          <select id="view-type">
+            <option value="list">List</option>
+            <option value="gridC">Grid</option>
+          </select>
+        </div>
+
+    <div id="company-cards"></div>
+      </main>
+    
+
+    <footer>
+    <div class="contact-info">
+        <p>Contact us: Manabi, Portoviejo San Cayetano and Litayos ST</p>
+        <p>Email: portoviejochamber@gmail.com</p>
+        <p>Phone: +593 978916207</p>
+    </div>
+    
+    <div class="development-info">
+        <p>Danny Alonzo</p>
+        <p>WDD 230</p>
+        <p id="lastModified">Last modified:</p>
+    </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/visits.js"></script>
+</body>
+</html>

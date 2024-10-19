@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Camara de Comercio de Quvedo",
+      "address": "Calle 7ma 217 entre 7 de Octubre y Bolivar 052 Quevedo, Ecuador",
+      "phone": "(05) 275-8031",
+      "website": "https://ccquevedo.com/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber1.jpg",
+      "membership_level": "Premium",
+      "other_information": "Camara de comercio de Quevedo. Move forward the productive sector of the city of Quevedo and the province of Los Ríos."
+    },
+    {
+      "name": "Prefectura de los Rios",
+      "address": "Av. Universitaria(4ta) y Clemente Baquerizo(calle 35) #0401",
+      "phone": "(05)-3701625",
+      "website": "https://losrios.gob.ec/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber2.jpg",
+      "membership_level": "Standard",
+      "other_information": "To formulate and execute plans, programs and projects that guarantee the social, economic and productive development of the Province and the Country"
+    },
+    {
+      "name": "El Paseo Shopping de Quevedo",
+      "address": "7ma Entre 7de Octubre Y Boliva",
+      "phone": "+593(098) 698-8030",
+      "website": "https://www.elpaseoshopping.com/quevedo/tiendas",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber3.png",
+      "membership_level": "Premium",
+      "other_information": "Best experience to sell or buy whatever you want."
+    },
+    {
+      "name": "La Quadra Quevedo",
+      "address": "Av Walter Andrade, Sector Guayacán.",
+      "phone": "0978154621",
+      "website": "https://laquadraquevedo.com/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber4.png",
+      "membership_level": "Standard",
+      "other_information": "Shopping plaza with a wide variety of shops, excellent food fair and diversity in restaurants that has a pleasant and family atmosphere."
+    },
+    {
+      "name": "Supermaxi Quevedo",
+      "address": "Av. Walter Andrade Fajardo y Moroni",
+      "phone": "05) 275-1582",
+      "website": "https://www.supermaxi.com/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber5.png",
+      "membership_level": "Premium",
+      "other_information": "You can make your supermarket purchases through our Tipti partners and receive your purchases in the comfort of your home, with the quality and safety of Supermaxi."
+    },
+    {
+      "name": "Club de los Leones Quevedo",
+      "address": "Av.Quito entre Rumiñahui y Fausto Torres",
+      "phone": "+593 925461745",
+      "website": "https://e-clubhouse.org/sites/quevedo/",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber6.png",
+      "membership_level": "Standard",
+      "other_information": "Lions serve the needs of local communities and those around the world because they share a strong belief – to serve their community."
+    },
+    {
+      "name": "Club Rotario",
+      "address": "1 Ave, 4ta y 5ta. Calle, 5",
+      "phone": "0975961511",
+      "website": "hhttps://www.rotary.org/es",
+      "image": "https://evelynjimena.github.io/wdd230/chamber/images/chamber7.png",
+      "membership_level": "Premium",
+      "other_information": "Our global network of more than 1.2 million neighbors, friends, and leaders volunteer their skills and resources to solve issues and address community needs."
+    }
+  ]
+  

@@ -72,4 +72,31 @@
       margin: 0 auto;
       text-align: center;
     }
+    .single-forecast {
+      grid-column-start: 1;
+      grid-column-end: auto;
+      text-align: center;
+    }
+    .three-forecast {
+      grid-column-start: 2;
+      text-align: center;
+    }
+    #current-temperature {
+      margin-bottom: 0;
+    }
+    #current-weather-description {
+      margin-top: 0;
+    }
+    .current-events {
+      text-align: unset;
+    }
+    .current-events ul {
+      padding-left: 15px;
+    }
+    .current-events ul li {
+      list-style:circle;
+    }
+    .gridC {
+      margin-left: 0px;
+    }
 }
